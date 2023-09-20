@@ -23,6 +23,8 @@ class Speedometer extends Component {
   }
 
   render() {
+    const {speed} = this.state
+
     return (
       <div className="speedometer-container">
         <h1 className="heading">SPEEDOMETER</h1>
